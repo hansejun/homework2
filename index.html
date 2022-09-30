@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>HomeWork</title>
+  </head>
+  <body>
+    <main>
+      <form class="main-form">
+        <h1>Join</h1>
+        <div class="form-info1">
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name" required />
+          <label for="last-name">Last name</label>
+          <input type="text" id="last-name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="form-info__gender form-info2">
+          <span>Gender</span>
+          <ul>
+            <label for="check-male">
+              <span>Male</span>
+              <input type="radio" id="check-male" />
+            </label>
+            <label for="check-female">
+              <input type="radio" id="check-female" />
+              <span>Female</span>
+            </label>
+          </ul>
+        </div>
+        <div class="form-info__favorite form-info2">
+          <span>Favorite</span>
+          <ul>
+            <label for="check-html">
+              <span>HTML</span>
+              <input type="checkbox" id="check-html" />
+            </label>
+            <label for="check-css">
+              <span>CSS</span>
+              <input type="checkbox" id="check-css"
+            /></label>
+            <label for="check-js">
+              <span>JAVASCRIPT</span>
+              <input type="checkbox" id="check-js" />
+            </label>
+          </ul>
+        </div>
+        <div class="form-info__browser form-info2">
+          <span>Browser</span>
+          <select>
+            <option value="chrome">크롬</option>
+            <option value="edge">엣지</option>
+            <option value="fire fox">파이어폭스</option>
+          </select>
+        </div>
+        <div class="form-info__date form-info2">
+          <span>Birthday</span>
+          <input type="date" />
+        </div>
+        <button class="form-button">Submit</button>
+      </form>
+    </main>
+  </body>
+  <script src="./index.js"></script>
+</html>
